@@ -101,7 +101,7 @@ html:not([privatebrowsingmode="temporary"]) #sidebar {
   min-width: var(--uc-sidebar-width) !important;
 }
 
-html:not([privatebrowsingmode="temporary"]) #sidebar-box:hover > #sidebar {
+html:not([privatebrowsingmode="temporary"]) #sidebar-box:hover > .sidebar-browser-stack > #sidebar {
   min-width: var(--uc-sidebar-hover-width) !important;
 }
 
