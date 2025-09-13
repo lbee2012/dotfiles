@@ -13,7 +13,7 @@ if not (vim.uv or vim.loop).fs_stat(lazypath) then
 end
 vim.opt.rtp:prepend(lazypath)
 
-require("lazy").setup("j.plugins")
+require("lazy").setup("plugins")
 
 vim.o.background = "dark" -- or "light" for light mode
 vim.cmd([[colorscheme gruvbox]])
@@ -21,9 +21,6 @@ vim.cmd([[colorscheme gruvbox]])
 vim.opt.clipboard = 'unnamedplus'
 vim.opt.number = true
 vim.opt.relativenumber = true
-vim.opt.expandtab = true
-vim.opt.shiftwidth = 2
-vim.opt.tabstop = 2
 vim.opt.expandtab = true
 vim.opt.shiftwidth = 2
 vim.opt.tabstop = 2
